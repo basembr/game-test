@@ -1,0 +1,27 @@
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Personalizza il popup principale */
+.leaflet-popup {
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+/* Personalizza il contenuto del popup */
+.leaflet-popup-content-wrapper {
+  padding: 10px;
+}
+
+/* Personalizza il testo e i link nel popup */
+.leaflet-popup-content {
+  color: #333;
+  text-align: center;
+}
+
+/* Personalizza la punta del popup */
+.leaflet-popup-tip-container {
+  background-color: #fff;
+}

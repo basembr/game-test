@@ -1,0 +1,100 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.button-matrix {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  position: relative;
+}
+
+.button-item {
+  position: relative;
+}
+
+button {
+  position: relative;
+  z-index: 2;
+  color: rgb(0, 0, 0);
+  background-color: #B5B682;
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100px;
+  height: 100px;
+  font-size: 12px;
+  font-weight: bold;
+  /* border-radius: 5px; */
+}
+
+/* #btn1 {
+  background-color: #B5B682;
+}
+
+#btn2 {
+  background-color: #CCD5AE;
+}
+
+#btn3 {
+  background-color: #467599;
+}
+
+#btn4 {
+  background-color: #457B9D;
+}
+
+#btn5 {
+  background-color: #84A59D;
+}
+
+#btn6 {
+  background-color: #52796F;
+}
+
+#btn7 {
+  background-color: #ADB5BD;
+}
+
+#btn8 {
+  background-color: #6C757D;
+}
+
+#btn9 {
+  background-color: #6C757D;
+} */
+
+.anagram-word {
+  font-size: 18px;
+  color: black;
+  /* opacity: 0.2; */
+  filter: blur(3px);
+  transition: filter 0.3s, opacity 0.3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+button.correct-answer {
+  background-color: transparent;
+  color: transparent;
+  pointer-events: none;
+}
+
+/* Personalizza solo il pulsante con la classe .navbar-toggler */
+button.navbar-toggler[data-bs-toggle="offcanvas"] {
+  /* Personalizza larghezza e altezza qui */
+  width: 56px;
+  /* Esempio: larghezza di 50 pixel */
+  height: inherit;
+  /* Esempio: altezza di 30 pixel */
+}
+

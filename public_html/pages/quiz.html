@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css?refreshcss=1">
+  <link rel="stylesheet" href="./style/popup.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="grid grid-game">
+    <div class="header"></div>
+    <div id="testo" class="testo bg_game">
+      <div class="indicazione">
+        <h5 id="indicazione">QUIZ</h5>
+        <p id="question-text">Domanda qui</p>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="risposta">
+        <form id="my_form" autocomplete="off">
+          <input id="answer" type="text">
+          <input id="conferma" type="image" src="../assets/images/send_arrow.png" class="avanti btn btn-submit">
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+
+<script type="module" src="../scripts/quiz.js"></script>
+<script type="module" src="../scripts/js/popup.js"></script>
+
+</html>

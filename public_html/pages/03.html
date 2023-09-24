@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <link rel="stylesheet" href="../styles/css/popup.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <section id="aiuto-1" class="popup_fixed popup_hide">
+    <section class="popup_container">
+      <div class="popup_header">SOLUZIONE</div>
+      <div id="popup-text" class="popup_content">Contenuto del popup</div>
+    </section>
+    <div class="popup_close"></div>
+  </section>
+
+  <h1>Risposta sbagliata 2</h1>
+  <p>suggerimento</p>
+  <button id="ottieni-soluzione">Ottieni la soluzione</button>
+  <button onclick="history.back()">Go Back</button>
+
+  <script type="module" src="../scripts/popup.js"></script>
+  <script type="module" src="../scripts/game.js"></script>
+    <script>
+      // Aggiungi un evento click al pulsante "Ottieni un suggerimento"
+      document.getElementById("ottieni-soluzione").addEventListener("click", function () {
+        // Rimuovi la classe "popup-hide" dalla sezione "aiuto-1"
+        document.getElementById("aiuto-1").classList.remove("popup_hide");
+      });
+
+    </script>
+
+</body>
+
+</html>

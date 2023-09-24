@@ -1,0 +1,43 @@
+1 - Splash: Pagina di avvio app, loghi con fade out dopo 2 secondi)
+
+2 - Registrazione 
+
+3 - Scansione inizio?
+
+4 - Istruzioni: testo
+
+5 - Griglia Quiz: una matrice di 9 tasti, alla pressione di ogni tasto si aprirà un popup con una indicazione diversa per ogni tasto, e un pulsante che consente di attivare telecamerea per scannerizzare un qr code
+
+6 - QUIZ x 9: testo + immagine + campo inserimento dati + invio
+Se invio corrisponde a soluzione esatta >> 7 - Risposta esatta
+Se invio corrisponde a soluzione errata >> POPUP 4 ritenta
+
+7 - Risposta esatta: testo e un pulsante che permette di ritornare alla griglia x 9
+
+8 - Congratulazioni: testo
+
+POPUP
+1 - Istruzioni: testo
+2 - QR Code quiz da pressione pulsante: 
+3 - Immagine aperta
+4 - Ritenta: suggerimento 
+4a - Ritenta: suggerimento + ottieni la soluzione (tasto che manda a 7: risposta esatta) 
+
+
+
+--------------
+PAGINE
+1 - Splash
+2 - Registrazione
+3 - Scansione inizio
+4 - Istruzioni
+5 - Griglia Quiz
+6 - QUIZ x 9
+7 - Risposta esatta
+8 - Congratulazioni
+
+POPUP
+1 - Istruzioni
+2 - QR Code quiz da pressione pulsante
+3 - Immagine aperta
+4 - Ritenta

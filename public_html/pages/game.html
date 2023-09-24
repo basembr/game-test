@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Hamburger PWA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/css/game.css">
+  <link rel="stylesheet" href="../styles/css/popup.css">
+</head>
+
+<body style="padding-top: 70px;">
+  <nav class="navbar bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Entry point</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="instructions.html">Istruzioni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="game.html">Gioco</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="map.html">Mappa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="privacy.html">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Contatti</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+    <div class="button-matrix">
+    
+      <div class="button-item">
+        <button id="btn1">Piazza Palazzo di Città</button>
+        <div class="anagram-word" id="word1">trodi</div>
+      </div>
+    
+      <div class="button-item">
+        <button id="btn2">Curia Maxima</button>
+        <div class="anagram-word" id="word2">sta</div>
+      </div>
+    
+      <div class="button-item">
+        <button id="btn3">Caserma Cernaia</button>
+        <div class="anagram-word" id="word3">è s</div>
+      </div>
+    
+      <div class="button-item">
+        <button id="btn4">Palazzo di Giustizia</button>
+        <div class="anagram-word" id="word4">laris</div>
+      </div>
+    
+      <div class="button-item">
+        <button id="btn5">Museo carceri Le Nuove</button>
+        <div class="anagram-word" id="word5">iata</div>
+      </div>
+    
+      <div class="button-item">
+        <button id="btn6">Giardino Lidia Poet</button>
+        <div class="anagram-word" id="word6">den</div>
+      </div>
+    
+      <div class="button-item">
+        <button id="btn7">Piazza Carlo Emanuele II</button>
+        <div class="anagram-word" id="word7">te</div>
+      </div>
+    
+      <div class="button-item">
+        <button id="btn8">Piazza Castello</button>
+        <div class="anagram-word" id="word8">però</div>
+      </div>
+    
+      <div class="button-item">
+        <button id="btn9">Politecnico</button>
+        <div class="anagram-word" id="word9">ba</div>
+      </div>
+    
+    </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="../scripts/game.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+</body>
+
+</html>
